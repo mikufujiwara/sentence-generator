@@ -1,0 +1,36 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+main {
+    padding-top: 50px;
+    height: 100vh;
+    color: white;
+    background-color:darkolivegreen;
+    display: flex;
+    row-gap: 10px;
+    flex-direction: column;
+    align-items: center;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    column-gap: 10px;
+    width: 50%;
+    align-items: center;
+}
+
+button {
+    cursor: pointer;
+    background-color: darkolivegreen;
+    color: white;
+    padding: 1%;
+    border: 2px solid white;
+}
+
+button:hover {
+    color: darkolivegreen;
+    background-color: white;
+}
